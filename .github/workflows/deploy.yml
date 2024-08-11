@@ -35,4 +35,4 @@ jobs:
           cd /home/phamquan/
           git pull origin main
           npm install
-          pm2 restart all # Use this if you're using pm2 to manage your process
+          pm2 start server.js # Use this if you're using pm2 to manage your process
