@@ -32,7 +32,7 @@ jobs:
         password: "1311"
         port: 22
         script: |
-          cd /home/phamquan/
+          cd /home/phamquan/testcicd
           git pull origin main
           npm install
           pm2 start server.js # Use this if you're using pm2 to manage your process
