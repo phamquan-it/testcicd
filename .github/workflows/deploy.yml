@@ -35,4 +35,5 @@ jobs:
           cd /home/phamquan/testcicd
           git pull origin main
           npm install
+          pm2 delete server
           pm2 start server.js # Use this if you're using pm2 to manage your process
