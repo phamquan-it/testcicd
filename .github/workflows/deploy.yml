@@ -32,7 +32,7 @@ jobs:
         key: ${{ secrets.VPS_PRIVATE_KEY }}
         port: 22
         script: |
-          cd /home/phamquan/my-app-directory
+          cd /home/phamquan/
           git pull origin main
           npm install
           pm2 restart all # Use this if you're using pm2 to manage your process
